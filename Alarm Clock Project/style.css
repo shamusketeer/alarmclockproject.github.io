@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #80ed99;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.clock-box{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 6px 3px #00cc331f,
+		0px 6px 10px 3px #00cc3338,
+		0px 9px 14px 3px #00cc3333,
+		0px 18px 16px 6px #00cc3347;
+}
+.clock-box-img img{
+    width: 10rem;
+    height: 10rem;
+}
+.start-time h1{
+    color: #31572c;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.disable{
+    opacity: 0.7;
+    pointer-events: none;
+}
+.column select{
+    padding: .8rem 1rem;
+    border: none;
+    background-color: #b7e4c7;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #1b4332;
+}
+.alarm-btn button{
+    margin-top: 2rem;
+    padding: 1rem 8rem;
+    border: 1px solid #1b4332;
+    background-color: #57cc99; 
+    color: #c7f9cc;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.main-heading h1{
+    color: #44bd32;
+    font-size: 50px;
+}
